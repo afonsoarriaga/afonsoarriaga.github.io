@@ -1,0 +1,13 @@
+/* Optimizes the space for mobile */
+.layout {
+    --margin-width: minmax(10px,1fr) !important;
+}
+
+/* Fixes the misaligend PAKE'25 title */
+.layout-content {
+    margin: 0px !important;
+}
+.notion-page-content {
+    margin: 0px !important;
+    padding: 0px !important;
+}
