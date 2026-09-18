@@ -11,3 +11,31 @@
     margin: 0px !important;
     padding: 0px !important;
 }
+
+/* PAKE'26 announcement banner */
+.pake26-banner {
+    flex-shrink: 0;
+    padding: 8px 16px;
+    background: rgb(231, 243, 248);
+    border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+    color: rgb(55, 53, 47);
+    font-size: 14px;
+    text-align: center;
+    cursor: default;
+}
+.pake26-banner a {
+    color: rgb(35, 131, 226);
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.pake26-banner a:hover {
+    text-decoration: underline;
+}
+
+/* Lets the page fill the space left below the banner */
+.notion-frame {
+    flex: 1 1 0% !important;
+    height: auto !important;
+    min-height: 0;
+}
