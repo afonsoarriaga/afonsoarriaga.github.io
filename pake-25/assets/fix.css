@@ -39,3 +39,8 @@
     height: auto !important;
     min-height: 0;
 }
+
+/* Hides the Notion top bar with the "PAKE'25" breadcrumb */
+.notion-app-inner header {
+    display: none !important;
+}
